@@ -1,0 +1,12 @@
+package happycoding;
+
+public class New {
+    public static void main(String[] args) {
+        String productName = "Rice";
+        int qty = 20;
+        float productPrice = 5.0f;
+        float disMiles = 10.f;
+
+        float totalPrice = productPrice * qty + disMiles;
+        productPrice = productPrice + 5;
+        System.out.println("The total price is " + totalPrice);
